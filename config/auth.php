@@ -46,6 +46,11 @@ return [
             'provider' => 'users',
             'hash' => false,
         ],
+
+        /* 'android-admin' => [
+           'driver' => 'session',
+           'provider' => 'android-admin',
+        ],*/
     ],
 
     /*
@@ -70,6 +75,11 @@ return [
             'driver' => 'eloquent',
             'model' => App\User::class,
         ],
+
+          /*'android-admin' => [
+           'driver' => 'eloquent',
+           'model' => App\User::class,
+        ],*/
 
         // 'users' => [
         //     'driver' => 'database',

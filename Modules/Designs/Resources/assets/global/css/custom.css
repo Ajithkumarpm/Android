@@ -1,0 +1,31 @@
+.alcenter {text-align:center}
+.cursorClass {cursor: none !important;}
+.rem{display:none !important;}
+.portlet.box.green{background-color:#fff !important;}
+.help-block{color:#e73d4a !important; font-size:11px !important}
+.bottomspaceform{padding-top:10px;padding-bottom:10px;}
+.button-bottom{padding-bottom:25px;}
+
+.portlet.light>.portlet-title>.caption>.caption-subject {
+    font-size: 12px!important;
+}
+.clerkportsize{float: left;width: 25%;padding-left: 15px;padding-bottom:10px;}
+
+
+/* .portlet.light.portlet-fit {
+    padding: 0;
+    min-height: 380px;
+} */
+
+
+.portlet.light.portlet-fit>.portlet-title {
+    padding: 7px 20px 10px;min-height: 130px;
+}
+
+.portlet.light.portlet-fit>.portlet-body {
+    padding: 0px!important;
+    }
+.table tr td 
+{
+    align-content: center !important;
+}

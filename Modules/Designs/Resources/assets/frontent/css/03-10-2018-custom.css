@@ -1,0 +1,89 @@
+.holder { 
+    background-color:#fff;
+    /* width:300px; */
+    height:320px;
+    overflow:hidden;
+    padding:10px;
+    font-family:Helvetica;
+  }
+  .holder .mask {
+    position: relative;
+    left: 0px;
+    top: 10px;
+    /* width:300px; */
+    height:320px;
+    overflow: hidden;
+  }
+  .holder ul {
+    list-style:none;
+    margin:0;
+    padding:0;
+    position: relative;
+  }
+  .holder ul li {
+    padding:10px 0px;
+  }
+  .holder ul li a {
+    color:darkred;
+    text-decoration:none;
+  }
+  .abouttext{color:#3f3f3f; line-height:22px;padding-bottom:35px;}
+  .help-block {
+    display: block;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    color: #ce1a1a;
+}
+
+
+.navbar-default .navbar-nav > .active1 > a, .navbar-default .navbar-nav > .active1 > a:hover, .navbar-default .navbar-nav > .active1 > a:focus{
+  color: #fff;
+  background: #F4811E!important;
+  outline: 0;
+}
+
+.aboutsectioncontainer{width:100%;}
+.info-text{padding-top:25px;}
+.h3text{font-size: 30px;line-height: 32px;font-weight: 600; font-family: 'permianseriftypefaceregular';color:#494949;}
+.h5text{font-size: 17px; line-height: 21px; font-weight: 600;;color:#494949;}
+.readmorebutton {
+  -webkit-border-radius:0px;
+  -moz-border-radius: 0px;
+  border-radius:0px;
+  display:inline-block;
+  text-align:center;
+  font-family: 'Exo', sans-serif;
+  font-size:16px;
+  font-weight: bold;
+  color:#fff !important;
+  cursor:pointer;
+  text-decoration:none !important;
+  margin:0 auto;
+  height:40px;
+  width: 160px;
+  padding-top:9px;
+  background-color:#f4811e;
+}
+.readmorebutton a:link {
+  color:#fff !important;
+  text-decoration:none;
+}
+.readmorebutton a:visited {
+  color:#fff !important;
+  text-decoration:none !important;
+}
+.readmorebutton a:hover {
+  color:#fff !important;
+  text-decoration:none !important;
+}
+.readmorebutton:hover {
+  -webkit-border-radius: 0px;
+  -moz-border-radius:0px;
+  border-radius:0px;
+  color:#fff !important;
+  text-decoration:none !important;
+  height: 40px;
+  width: 160px;
+  padding-top:9px;
+  background-color:#e4791e;
+}

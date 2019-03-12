@@ -1,0 +1,134 @@
+.timex{
+ float: left;
+padding-left: 15px;
+padding-right: 7px;
+} 
+.hourtext
+{
+    width:65px;
+}
+.hourtexts
+{
+    width:79px;
+}
+.newradio
+{
+    float: left;
+    padding-right: 25px;
+}
+#invisiblex
+{
+    display: none;
+}
+#novis
+{
+    display: none;
+}
+.js-example-basic-multiple
+{
+	width:320px;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.sliderx {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  backgroundx-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.sliderx:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  backgroundx-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .sliderx {
+  backgroundx-color: #2196F3;
+}
+
+input:focus + .sliderx {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .sliderx:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliderxs */
+.sliderx.roundx {
+  border-radius: 34px;
+}
+
+.sliderx.roundx:before {
+  border-radius: 50%;
+}
+.page-logo
+{
+  padding-top: 7px !important;
+}
+.alternative-row
+{
+  background-color: #fc0 !important;
+  color: #101010;
+}
+.border_bottom
+{
+  border-bottom: 1px solid #eee;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.padding_row
+{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.top
+{
+  width:60% !important;
+}
+.modal-body
+{
+  overflow-wrap: break-word !important;
+}
+.big-icon {
+    font-size: 28px !important;
+}
+.ico-and{
+  color:#104952 ;
+}
+.ico-ios{
+   color:#1d0604 ;
+}
+.txtDate
+  {
+      background-image: url(https://i.imgur.com/u6upaAs.png);
+      background-repeat: no-repeat;
+      padding-left: 25px;
+      padding-top: 3px;
+  }
